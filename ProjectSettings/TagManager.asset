@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EventSystem
+  - UI
+  - Menu
+  - Item
+  - DescriptionField
+  - Canvas
+  - GUIController
+  - ItemListGameObject
+  - CharactersList
+  - FadeImage
+  - LightningImage
+  - BattleManager
+  - DeadHero
+  - DeadEnemy
+  - GameManager
+  - Sequencer
+  - Chest
+  - Player2
+  - ShowOnCredits
+  - ShowOnControls
+  - ShowLanguage
+  - ChestBottom
+  - DamagePosition
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

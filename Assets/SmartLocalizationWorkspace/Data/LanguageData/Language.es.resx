@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Attack.Description.Fire" xml:space="preserve">
+		<value>Magia de Fuego.</value>
+	</data>
+	<data name="Attack.Description.Poison" xml:space="preserve">
+		<value>Magia de Veneno.</value>
+	</data>
+	<data name="Attack.Name.Fire" xml:space="preserve">
+		<value>Fuego</value>
+	</data>
+	<data name="Attack.Name.HammerStatic" xml:space="preserve">
+		<value>Martillazo estático</value>
+	</data>
+	<data name="Attack.Name.HammerSwing" xml:space="preserve">
+		<value>Golpetazo</value>
+	</data>
+	<data name="Attack.Name.Poison" xml:space="preserve">
+		<value>Veneno</value>
+	</data>
+	<data name="Attack.Name.Slash" xml:space="preserve">
+		<value>Corte</value>
+	</data>
+	<data name="Attack.Name.SlashStatic" xml:space="preserve">
+		<value>Corte estático</value>
+	</data>
+	<data name="Book.Order" xml:space="preserve">
+		<value>La primera página dice: “Verde, marrón, negro, gris, rojo, amarillo”. Me gusta utilizar este tipo de códigos para ordenar algunas cosas. Mi madre se vuelve loca con esto.</value>
+	</data>
+	<data name="Boss.Conversation.Part1.Girl" xml:space="preserve">
+		<value>Oooh. Ya estamos otra vez.</value>
+	</data>
+	<data name="Boss.Conversation.Part2.Boy" xml:space="preserve">
+		<value>¡Mira! Creo que ahora es distinto.</value>
+	</data>
+	<data name="Boss.Conversation.Part3.Boss" xml:space="preserve">
+		<value>¡Ja ja! Fue divertido ¿no es cierto? ¡Ahora es el momento de mi entrada heroica!</value>
+	</data>
+	<data name="Boss.Conversation.Part3.Boy" xml:space="preserve">
+		<value>¿Y quién eres tú?</value>
+	</data>
+	<data name="Boss.Conversation.Part4.Boss" xml:space="preserve">
+		<value>Soy un Comehabitaciones, un ser interdimensional...</value>
+	</data>
+	<data name="Boss.Conversation.Part5.Boss" xml:space="preserve">
+		<value>... He dicho Comehabitaciones. ¿Qué le pasa a esta niña?</value>
+	</data>
+	<data name="Boss.Conversation.Part5.Girl" xml:space="preserve">
+		<value>¿Correhabitaciones? ¡Guaaay!</value>
+	</data>
+	<data name="Boss.Conversation.Part6.Boss" xml:space="preserve">
+		<value>Cogemos las habitaciones de los niños cuando no están dentro jugando, drenamos toda la diversión acumulada en ellas a través del tiempo y luego las devolvemos para que vuelvan a ser cargadas de nuevo.</value>
+	</data>
+	<data name="Boss.Conversation.Part6.Boy" xml:space="preserve">
+		<value>¡Pero nosotros estábamos dentro de nuestras habitaciones!</value>
+	</data>
+	<data name="Boss.Conversation.Part7.Boss" xml:space="preserve">
+		<value>¿Nunca habéis notado que desaparecen cosas misteriosamente de vuestros cuartos?</value>
+	</data>
+	<data name="Boss.Conversation.Part7.Girl" xml:space="preserve">
+		<value>¡Eso! ¡Devuélvenos nuestros cuartos de nuevo!</value>
+	</data>
+	<data name="Boss.Conversation.Part8.Boss" xml:space="preserve">
+		<value>Y por eso he preparado estos juegos para vosotros. Ahora jugad una vez más. Jejeje.</value>
+	</data>
+	<data name="Boy.Appears.Part1.Boy" xml:space="preserve">
+		<value>¡Jopelines! ¿Otro cuarto? Esto no es justo.</value>
+	</data>
+	<data name="Boy.Appears.Part10.Boy" xml:space="preserve">
+		<value>Por cierto, me llamo Charlie.</value>
+	</data>
+	<data name="Boy.Appears.Part2.Girl" xml:space="preserve">
+		<value>¡Buaah! ¿Quién eres? ¿Qué estás haciendo en mi habitación? ¡¿Y qué estabas haciendo debajo de mi cama?!</value>
+	</data>
+	<data name="Boy.Appears.Part3.Boy" xml:space="preserve">
+		<value>¡N-No es lo que piensas!...</value>
+	</data>
+	<data name="Boy.Appears.Part4.Boy" xml:space="preserve">
+		<value>Estaba atrapado dentro de mi cuarto... o lo que creía que era mi cuarto. Luego todo se volvió una locura y empezaron a pasar cosas muy raras.</value>
+	</data>
+	<data name="Boy.Appears.Part5.Girl" xml:space="preserve">
+		<value>Pues tengo malas noticias para ti. ¿¡CÓMO PODEMOS VOLVER A NUESTRAS HABITACIONES NO RARAS!?</value>
+	</data>
+	<data name="Boy.Appears.Part6.Boy" xml:space="preserve">
+		<value>Hmm... Tenemos que encontrar algo que yo llamo el dispositivo oculto configurador de habitaciones multidimensional (DOCAMD). Debería estar por aquí.</value>
+	</data>
+	<data name="Boy.Appears.Part7.Girl" xml:space="preserve">
+		<value>¿Mi qué? ¿No te han dicho tus padres que está mal decir palabrotas?</value>
+	</data>
+	<data name="Boy.Appears.Part8.Boy" xml:space="preserve">
+		<value>Así es como se llama el cacharro. Es algo donde puedes poner números.</value>
+	</data>
+	<data name="Boy.Appears.Part9.Girl" xml:space="preserve">
+		<value>¡A encontrarlo pues!</value>
+	</data>
+	<data name="Character.Enemy.Name.Fluff" xml:space="preserve">
+		<value>Pelusa Viviente</value>
+	</data>
+	<data name="Character.Enemy.Name.MrMite" xml:space="preserve">
+		<value>Comehabitaciones</value>
+	</data>
+	<data name="Character.Enemy.Name.Sock" xml:space="preserve">
+		<value>Calcetín Perdido</value>
+	</data>
+	<data name="Character.Enemy.Name.Teddy" xml:space="preserve">
+		<value>Osito viejo</value>
+	</data>
+	<data name="Character.Levelup" xml:space="preserve">
+		<value>sube de nivel.</value>
+	</data>
+	<data name="Chest.Empty" xml:space="preserve">
+		<value>Esto es muy pesado como para empujarlo.</value>
+	</data>
+	<data name="Chest.SomethingMore" xml:space="preserve">
+		<value>Hay algo más dentro.</value>
+	</data>
+	<data name="ClockConversation.Part1" xml:space="preserve">
+		<value>¿Qué estás haciendo?</value>
+	</data>
+	<data name="ClockConversation.Part2" xml:space="preserve">
+		<value>Dijiste que había que encontrar algo donde poder "poner" números, así que...</value>
+	</data>
+	<data name="ClockConversation.Part3" xml:space="preserve">
+		<value>Sí pero... eso es solo un reloj.</value>
+	</data>
+	<data name="ClockConversation.Part4" xml:space="preserve">
+		<value>Hmm... Pues no marca la hora correcta.</value>
+	</data>
+	<data name="Controls.Action" xml:space="preserve">
+		<value>Acción / Confirmar</value>
+	</data>
+	<data name="Controls.Cancel" xml:space="preserve">
+		<value>Cancelar / Volver</value>
+	</data>
+	<data name="Controls.EquipMenuNav" xml:space="preserve">
+		<value>Nav. Personajes en Menú de Equipo</value>
+	</data>
+	<data name="Controls.Keyboard" xml:space="preserve">
+		<value>Teclado</value>
+	</data>
+	<data name="Controls.Menu" xml:space="preserve">
+		<value>Menú</value>
+	</data>
+	<data name="Controls.Move" xml:space="preserve">
+		<value>Mover</value>
+	</data>
+	<data name="Credits.Artist" xml:space="preserve">
+		<value>Artista</value>
+	</data>
+	<data name="Credits.Music" xml:space="preserve">
+		<value>Música</value>
+	</data>
+	<data name="Credits.Programmer" xml:space="preserve">
+		<value>Programador</value>
+	</data>
+	<data name="Curiosities.Robbie" xml:space="preserve">
+		<value>Es mi peluche de Robbie el Conejo. A veces tengo la sensación de que me está mirando.</value>
+	</data>
+	<data name="Door.Locked" xml:space="preserve">
+		<value>Sigue cerrada desde el otro lado.</value>
+	</data>
+	<data name="Final.Part1.Boy" xml:space="preserve">
+		<value>¡Mira! ¡Se ha abierto la puerta!</value>
+	</data>
+	<data name="Final.Part2.Girl" xml:space="preserve">
+		<value>¡Bien! ¡Por fin. Vámonos!</value>
+	</data>
+	<data name="Final.Part3" xml:space="preserve">
+		<value>¡Angie! La cena está servida. Puedes seguir jugando con tu nuevo amigo más tarde.</value>
+	</data>
+	<data name="Final.Part4.Boy" xml:space="preserve">
+		<value>¿Cómo sabe que estoy aquí?</value>
+	</data>
+	<data name="Final.Part5.Girl" xml:space="preserve">
+		<value>No lo sé. Creo que todas las madres lo saben todo acerca de sus hijos. Es uno de los poderes de las mamis.</value>
+	</data>
+	<data name="Final.Part6.Girl" xml:space="preserve">
+		<value>¡Vamos! Puedo oler la cena desde aquí.</value>
+	</data>
+	<data name="Final.Part7.Girl" xml:space="preserve">
+		<value>Fue divertido después de todo.</value>
+	</data>
+	<data name="Item.Description.Coke" xml:space="preserve">
+		<value>Bebida de cola no muy saludable pero sabe genial (Restaura algo de MP).</value>
+	</data>
+	<data name="Item.Description.FoamSword" xml:space="preserve">
+		<value>De la feria local.</value>
+	</data>
+	<data name="Item.Description.Juice" xml:space="preserve">
+		<value>Zumo saludable. (Restaura algo de HP. ¡Incluso si estás KO!)</value>
+	</data>
+	<data name="Item.Description.LightSaber" xml:space="preserve">
+		<value>Que la fuerza te acompañe.</value>
+	</data>
+	<data name="Item.Description.Number" xml:space="preserve">
+		<value>Es un número.</value>
+	</data>
+	<data name="Item.Description.PieceNumber" xml:space="preserve">
+		<value>Parece un trozo de papel con un número.</value>
+	</data>
+	<data name="Item.Description.Stick" xml:space="preserve">
+		<value>¡¡¡Es un palo!!!</value>
+	</data>
+	<data name="Item.Loot" xml:space="preserve">
+		<value> obtenido.</value>
+	</data>
+	<data name="Item.LootFem" xml:space="preserve">
+		<value> obtenida.</value>
+	</data>
+	<data name="Item.Name.Coke" xml:space="preserve">
+		<value>Refresco de cola</value>
+	</data>
+	<data name="Item.Name.FoamSword" xml:space="preserve">
+		<value>Espada de Gomaespuma</value>
+	</data>
+	<data name="Item.Name.Juice" xml:space="preserve">
+		<value>Zumo</value>
+	</data>
+	<data name="Item.Name.LightSaber" xml:space="preserve">
+		<value>Sable de Luz de juguete</value>
+	</data>
+	<data name="Item.Name.NumberClock" xml:space="preserve">
+		<value>Trozo de papel del reloj</value>
+	</data>
+	<data name="Item.Name.NumberSock" xml:space="preserve">
+		<value>Número de dentro del calcetín</value>
+	</data>
+	<data name="Item.Name.PieceNumber1" xml:space="preserve">
+		<value>Trozo de Número 1</value>
+	</data>
+	<data name="Item.Name.PieceNumber2" xml:space="preserve">
+		<value>Trozo de Número 2</value>
+	</data>
+	<data name="Item.Name.PieceNumber3" xml:space="preserve">
+		<value>Trozo de Número 3</value>
+	</data>
+	<data name="Item.Name.Stick" xml:space="preserve">
+		<value>Palo</value>
+	</data>
+	<data name="Library.cantReach" xml:space="preserve">
+		<value>Hay algunos libros sin ordenar pero no llego a ellos.</value>
+	</data>
+	<data name="Main.UpdateAvailable" xml:space="preserve">
+		<value>Hay una nueva versión disponible.</value>
+	</data>
+	<data name="Menu.Back" xml:space="preserve">
+		<value>Atrás</value>
+	</data>
+	<data name="Menu.Clock" xml:space="preserve">
+		<value>Hora Actual</value>
+	</data>
+	<data name="Menu.Control" xml:space="preserve">
+		<value>Info de Controles</value>
+	</data>
+	<data name="Menu.Credits" xml:space="preserve">
+		<value>Créditos</value>
+	</data>
+	<data name="Menu.DefaultItemDescription" xml:space="preserve">
+		<value>Sin objetos.</value>
+	</data>
+	<data name="Menu.Exit" xml:space="preserve">
+		<value>Salir del Juego</value>
+	</data>
+	<data name="Menu.Language" xml:space="preserve">
+		<value>Idioma</value>
+	</data>
+	<data name="Menu.Start" xml:space="preserve">
+		<value>Iniciar Juego</value>
+	</data>
+	<data name="Menu.Timer" xml:space="preserve">
+		<value>Tiempo</value>
+	</data>
+	<data name="MenuItem.Abilities" xml:space="preserve">
+		<value>Habilidades</value>
+	</data>
+	<data name="MenuItem.Attack" xml:space="preserve">
+		<value>Atacar</value>
+	</data>
+	<data name="MenuItem.Equip" xml:space="preserve">
+		<value>Equipar</value>
+	</data>
+	<data name="MenuItem.ExitGame" xml:space="preserve">
+		<value>Volver al Menú Principal</value>
+	</data>
+	<data name="MenuItem.Magic" xml:space="preserve">
+		<value>Magia</value>
+	</data>
+	<data name="MenuItem.Objects" xml:space="preserve">
+		<value>Objetos</value>
+	</data>
+	<data name="MenuItem.Return" xml:space="preserve">
+		<value>Volver</value>
+	</data>
+	<data name="MenuItem.Unequip" xml:space="preserve">
+		<value>Desequipar</value>
+	</data>
+	<data name="Option.No" xml:space="preserve">
+		<value>No</value>
+	</data>
+	<data name="Option.Yes" xml:space="preserve">
+		<value>Sí</value>
+	</data>
+	<data name="Puzzle.Books.Succeed" xml:space="preserve">
+		<value>¡Buaaah! ¡Se mueve a un lado!</value>
+	</data>
+	<data name="Puzzle.Books.Succeed2" xml:space="preserve">
+		<value>Había algo detrás de la librería.</value>
+	</data>
+	<data name="Puzzle.Clock.Init" xml:space="preserve">
+		<value>¿Por qué el reloj no está puesto en hora?</value>
+	</data>
+	<data name="Puzzle.Clock.Succeed" xml:space="preserve">
+		<value>¡Algo se ha abierto en la parte de atrás!</value>
+	</data>
+	<data name="Puzzle.Fail" xml:space="preserve">
+		<value>No pasa nada.</value>
+	</data>
+	<data name="Puzzle.Password.Init" xml:space="preserve">
+		<value>Dice: “El primer número viene de viejos recuerdos rotos, el segundo número siempre está en hora. Y eso es todo lo que necesitas saber”.</value>
+	</data>
+	<data name="Puzzle.Password.Init2" xml:space="preserve">
+		<value>¡No. No lo es! ¿Debería probar con 111? Siempre funciona.</value>
+	</data>
+	<data name="Puzzle.Text.Books.Charcoal" xml:space="preserve">
+		<value>6. Y tu regalo, carbón.</value>
+	</data>
+	<data name="Puzzle.Text.Books.Cloud" xml:space="preserve">
+		<value>2. La nube cansada.</value>
+	</data>
+	<data name="Puzzle.Text.Books.Narcissus" xml:space="preserve">
+		<value>3. Narciso.</value>
+	</data>
+	<data name="Puzzle.Text.Books.Poppies" xml:space="preserve">
+		<value>5. Amapolas brillantes.</value>
+	</data>
+	<data name="Puzzle.Text.Books.Potato" xml:space="preserve">
+		<value>1. La patata que no quería ser comida.</value>
+	</data>
+	<data name="Puzzle.Text.Books.Turtle" xml:space="preserve">
+		<value>4. La carrera de la tortuga.</value>
+	</data>
+	<data name="Puzzle.Text.Chest" xml:space="preserve">
+		<value>¿Vaciar el baúl?</value>
+	</data>
+	<data name="Puzzle.Text.Clock" xml:space="preserve">
+		<value>Pon el reloj en hora.</value>
+	</data>
+	<data name="Puzzle.Text.Library" xml:space="preserve">
+		<value>Hora de ordenar algunos libros. La clave debe estar en alguna parte.</value>
+	</data>
+	<data name="Puzzle.Text.Password" xml:space="preserve">
+		<value>Inserta contraseña.</value>
+	</data>
+	<data name="Sequence.First.Part1" xml:space="preserve">
+		<value>La habitación normal y corriente de una niña. Siempre llena de desorden y diversión... excepto cuando no hay nadie dentro.</value>
+	</data>
+	<data name="Sequence.First.Part2" xml:space="preserve">
+		<value>Me abuuurrroooo.</value>
+	</data>
+	<data name="Sequence.First.Part3" xml:space="preserve">
+		<value>¡¡¡B-BUAAAAH!!!</value>
+	</data>
+	<data name="Sequence.First.Part4" xml:space="preserve">
+		<value>¿¡Ahhh!? ¡¿Qué está pasando?! ¿Se está cayendo el cielo sobre mi casa?</value>
+	</data>
+	<data name="Sequence.First.Part5" xml:space="preserve">
+		<value>Tengo que salir de aquí.</value>
+	</data>
+	<data name="Sequence.First.Part6" xml:space="preserve">
+		<value>¡¿Qué?! ¡Está cerrado desde el otro lado!</value>
+	</data>
+	<data name="Test.FirstMessagePart1" xml:space="preserve">
+		<value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</value>
+	</data>
+	<data name="Test.FirstMessagePart2" xml:space="preserve">
+		<value>ext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</value>
+	</data>
+	<data name="Test.FirstMessagePart3" xml:space="preserve">
+		<value>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</value>
+	</data>
+	<data name="Test.FirstMessagePart4" xml:space="preserve">
+		<value>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</value>
+	</data>
+	<data name="UI.Jump" xml:space="preserve">
+		<value>Saltar</value>
+	</data>
+	<data name="UI.Push" xml:space="preserve">
+		<value>Empujar</value>
+	</data>
+</root>
